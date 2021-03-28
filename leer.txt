@@ -1,0 +1,8 @@
+
+
+  npx sequelize-cli model:generate --name Autor --attributes nombre:string,edad:integer,nacionalidad:string
+  npx sequelize-cli model:generate --name Libro --attributes titulo:string,descripcion:string,precio:decimal
+  npx sequelize-cli model:generate --name Libro_carrito --attributes cantidad:integer
+  npx sequelize-cli model:generate --name Carrito --attributes nit:string,name:string
+
+  npx sequelize-cli db:migrate  
